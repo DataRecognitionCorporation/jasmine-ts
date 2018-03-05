@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --expose_gc
 import * as fs from "fs";
 import * as path from "path";
 import { register, parse } from "ts-node/dist";
